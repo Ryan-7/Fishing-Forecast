@@ -1,0 +1,122 @@
+
+body {
+    font-size: 16px;
+    color: #F5E7D8;
+    font-family: "Fjalla One";
+        background: url("../images/header2.jpg") fixed no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.spacer {
+    margin-top: 50px;
+}
+
+.spacer2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.spacer3 {
+    margin-top: 75px;
+}
+
+
+.input-group {
+    margin-top: 10px;
+}
+
+.form-control {
+    font-family: "Fjalla One";
+      font-size: 20px;
+    height: 50px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+#tagline {
+    margin-bottom: 60px;
+    color: #286090;
+  
+}
+
+#work  {
+    height: 50px;
+    font-size: 20px;
+}
+
+#go {
+    height: 50px;
+    font-size: 20px;
+}
+
+body .fa {
+    font-size: 50px;
+    color: #286090;
+    display: block;
+    margin-top: 10px;
+} 
+
+.input-group .fa {
+    font-size: 20px;
+    color: #666;
+    margin-top: 0;
+}
+
+
+.underline-text {
+    text-decoration: underline;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#status {
+    margin-top: 20px;
+}
+
+#temp, #thePressure, #rising {
+    font-size: 25px;
+}
+
+#workInfo {
+    z-index: 9999;
+    width: 100%;
+    height: 50%;
+    background: rgba(51,122,183, .9);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: none;
+  overflow: scroll;
+    border-top: 2px solid white;
+}
+
+
+a, a h1, a:hover {
+    color: #286090;
+    text-decoration: none;
+    font-size: 70px;
+    display: inherit;
+}
+
+.tag {
+    color: #286090;
+}
+
+@media only screen and (max-width: 792px) {
+    a, a h1, a:hover {
+        font-size: 40px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
