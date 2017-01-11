@@ -1,7 +1,7 @@
 # Fishing-Forecast
 
-# This app uses the Revealing Modular Pattern.
-# The public method is: fishForecast.search();
+This app uses the Revealing Modular Pattern.
+The public method is: fishForecast.search();
 
 Fishing Forecast is a web app that determines the current fishing forecast based on your location. The app uses Yahoo's weather API to gather statistics relevant to fishing, most notably, the barometric pressure.
 
