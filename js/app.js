@@ -1,4 +1,7 @@
-// Revealing Module JavaScript Pattern 
+// Revealing Module Pattern with Immediately Invoked Function Expression
+// A good example of a closure
+// This function execution has ended but we still have access to its variables through closure
+// IIFE will create 'private' variables, won't interfere with the global namespace
 
 var fishForecast = (function() {
 
